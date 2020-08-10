@@ -1,0 +1,402 @@
+{
+  "lifecycleDisorder":[
+    {
+        "name":"Heart",
+        "packages": [
+            {
+                "name": "HEART",
+                "title": "LIPID PROFILE",
+                "Category": "HEART RELATED DISORDERS",
+                "Prerequisite": "12 hours OR Overnight fasting is recommended",
+                "ReportAvailability": "Same Day",
+                "Price": 0,
+                "UsefulFor": "Detecting or Monitoring risks of developing Cardiovascular diseases and even crtain forms of Pancreatitis.",
+                "SampleRequired": "Blood Sample drawn from the veins in the arm. "
+            },
+            {
+                "name": "HEART",
+                "title": "HbA1c",
+                "Category": "HEART RELATED DISORDERS",
+                "Prerequisite": "12 hours OR Overnight fasting is recommended",
+                "ReportAvailability": "Same Day",
+                "Price": 0,
+                "UsefulFor": "Detecting or Monitoring risks of developing Heart failure among patients with diabetes.",
+                "SampleRequired": "Blood Sample drawn from the veins in the arm. "
+            },
+            {
+                "name": "HEART",
+                "title": "S-CREATININE",
+                "Category": "HEART RELATED DISORDERS",
+                "Prerequisite": "12 hours OR Overnight fasting is recommended",
+                "ReportAvailability": "Same Day",
+                "Price": 0,
+                "UsefulFor": "A slightly elevated s-creatinine level indicates reduced Kidney functions which is a risk factor for cardiovascular diseases like congestive Heart failure.",
+                "SampleRequired": "Blood Sample drawn from the veins in the arm. "
+            }
+        ]
+    },
+    {
+      "name":"Kidney",
+      "packages":[
+        {
+            "name":"Kidney",
+            "title":"URIC ACID (SERUM)",
+            "Category":"KIDNEY RELATED DISORDERS",
+            "Prerequisite":"No Specific Prerequisite.",
+            "ReportAvailability":"Same Day",
+            "Price":"₹700/-",
+            "UsefulFor":"Detecting gout which is a common form of arthritis causing severe pain and tenderness in joints or to figure the cause for Kidney Stones(one type is due to uric acid crystals).",
+            "SampleRequired":"Blood sample drawn from veins in the arm."   
+       },
+        {
+            "name":"Kidney",
+            "title":"BUN(Blood Urea Nitrigen)", 
+            "Category":"KIDNEY RELATED DISORDERS",
+            "Prerequisite":"No Specific Prerequisite.",
+            "ReportAvailability":"Same Day",
+            "Price":"₹370/-",
+            "UsefulFor":"Detecting or Monitoring Renal Function,Liver Function or as a routine test in patient on dialysis.",
+            "SampleRequired":"Blood sample drawn from veins in the arm."     
+        },
+        
+        {
+            "name":"Kidney",
+            "title":"CREATININE",
+            "Category":"KIDNEY RELATED DISORDERS",
+            "Prerequisite":"No Specific Prerequisite.",
+            "ReportAvailability":"Same Day",
+            "Price":"₹700/-",
+            "UsefulFor":"Detecting or Monitoring a wide range of disorders such as urinary tract infections,Kidney diseases due to diabetes or high BP etc.",
+            "SampleRequired":"First Morning Sample of Urine."   
+       },
+       
+        {
+            "name":"Kidney",
+            "title":"ELECTROLYTE PANEL",
+            "Category":"KIDNEY RELATED DISORDERS",
+            "Prerequisite":"No Specific Prerequisite.",
+            "ReportAvailability":"Same Day",
+            "Price":"₹700/-",
+            "UsefulFor":"Abnormal Electrolyte Level can be due to several conditions like Dehyration,kidney diseases,Heart diseases,diabetes,Acidosis etc.",
+            "SampleRequired":"Blood sample drawn from veins in the arm."   
+       },
+       
+        {
+            "name":"Kidney",
+            "title":"24 HRS URINARY PROTEIN",
+            "Category":"KIDNEY RELATED DISORDERS",
+            "Prerequisite":"No Specific Prerequisite.",
+            "ReportAvailability":"Same Day",
+            "Price":"₹700/-",
+            "UsefulFor":"Detecting inflammatory diseases,Neoplastic dieases,Immune disorders,liver diseases and nephrotic syndrome.", 
+            "SampleRequired":"24 hours Urine Sample"   
+       }
+      ]
+    },
+    {
+        "name":"Allergy",
+        "packages":[
+            {
+
+                "name":"ALLERGY",
+                "title":"IgG(GLOBULIN)",
+                "Category":"ALLERGY DISORDERS",
+                "Prerequisite":"12 hours OR Overnight fasting is recommended",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detecting or Monitoring Hypersensitivity Reactions, Immune Deficiency, Autoimmune Diseases, Chronic Infections etc.",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm to prepare the serum."
+            }
+            
+        ]
+    },
+    {
+        "name":"Infertility",
+        "packages":[
+            {
+
+                "name":"INFERTILITY",
+                "title":"FSH",
+                "Category":"INFERTILITY RELATED DISORDERS",
+                "Prerequisite":"12 hours OR Overnight fasting is recommended",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detecting diseases related to the pituitary gland and the ovaries or Assessing infertillity and irregular menstrual cycles in women.",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            },
+            
+             {
+
+                "name":"INFERTILITY",
+                "title":"LH",
+                "Category":"INFERTILITY RELATED DISORDERS",
+                "Prerequisite":"12 hours OR Overnight fasting is recommended",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Assessing the difficulty in getting pregnant,irregular menstrual cycles,suspect of menopause in women, pituitary disorder, or for men having low testosterone levels.",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            },
+            
+            {
+
+                "name":"INFERTILITY",
+                "title":"PROLACTIN",
+                "Category":"INFERTILITY RELATED DISORDERS",
+                "Prerequisite":"12 hours OR Overnight fasting is recommended",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detecting Prolactinoma on the pituitary glands.",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            }, 
+            
+            {
+
+                "name":"INFERTILITY",
+                "title":"ESTRADIOL",
+                "Category":"INFERTILITY RELATED DISORDERS",
+                "Prerequisite":"12 hours OR Overnight fasting is recommended",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Assessing abnormal menstrual cycles,abnormal vaginal bleeding,ovary functioning,symptoms of menopause.",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            },
+        
+             {
+
+                "name":"INFERTILITY",
+                "title":"PROGESTERONE",
+                "Category":"INFERTILITY RELATED DISORDERS",
+                "Prerequisite":"12 hours OR Overnight fasting is recommended",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detecting the cause of women infetility,to find out when you are ovulating or to Monitor High Risk pregnancy.",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            },
+            
+             {
+
+                "name":"INFERTILITY",
+                "title":"SEMEN ANALYSIS",
+                "Category":"INFERTILITY RELATED DISORDERS",
+                "Prerequisite":"12 hours OR Overnight fasting is recommended",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detecting infertility in men and its reason-low sperm count or sperm dysfunction.",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            }
+            
+        ]
+    },
+    {
+        "name":"Thyroid",
+        "packages":[
+            {
+
+                "name":"THYROID",
+                "title":"FT3",
+                "Category":"THYOID RELATED DISORDERS",
+                "Prerequisite":"12 hours OR Overnight fasting is recommended",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detecting and Monitoring thyroid disorders such as T3 thyrotoxicosis.",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            },
+             {
+
+                "name":"THYROID",
+                "title":"FT4",
+                "Category":"THYOID RELATED DISORDERS",
+                "Prerequisite":"12 hours OR Overnight fasting is recommended",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Assessing what type of problem is affecting the thyroid.",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            },
+            {
+
+                "name":"Thyroid",
+                "title":"TSH",
+                "Category":"THYOID RELATED DISORDERS",
+                "Prerequisite":"12 hours OR Overnight fasting is recommended",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detecting thyroid disorders which can be either hyperthyroidism or hypothyroidism.",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            },
+             {
+
+                "name":"Thyroid",
+                "title":"LIPID PROFILE",
+                "Category":"THYOID RELATED DISORDERS",
+                "Prerequisite":"12 hours OR Overnight fasting is recommended",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detecting thyroid dysfunction.",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            },
+           {
+
+                "name":"Thyroid",
+                "title":"ANTI TPO ANIBODY",
+                "Category":"THYOID RELATED DISORDERS",
+                "Prerequisite":"12 hours OR Overnight fasting is recommended",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detecting the cause of thyroid disorders after being diagnosed with thyroid diseases.",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            }
+        ]
+    },
+    {
+        "name":"Diabetes",
+        "packages":[
+            {
+
+                "name":"DIABETES",
+                "title":"HbA1c",
+                "Category":"DIABETES RELATED DISORDERS",
+                "Prerequisite":"12 hours OR Overnight fasting is recommended",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detecting or Monitoring diabetes control by tracking patient average glucose index over a period of time say 2 to 3 months in lighter forms of diabetes. ",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            },
+             
+                {
+
+                "name":"DIABETES",
+                "title":"BUN(Blood Urea Nitrogen)",
+                "Category":"DIABETES RELATED DISORDERS",
+                "Prerequisite":"12 hours OR Overnight fasting is recommended",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detecting or Monitoring Renal Function, or as a routine test for patient on dialysis, to assess liver function, etc.",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            },
+            
+              {
+
+                "name":"DIABETES",
+                "title":"CREATININE",
+                "Category":"DIABETES RELATED DISORDERS",
+                "Prerequisite":"12 hours OR Overnight fasting is recommended",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detecting or Monitoring Renal Diseases, assess Kidney Function or effect of BP/Diabetes on the Kidneys",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            },
+            
+              {
+
+                "name":"DIABETES",
+                "title":"FASTING GLUCOSE",
+                "Category":"DIABETES RELATED DISORDERS",
+                "Prerequisite":"12 hours OR Overnight fasting is recommended",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detecting or Monitoring the type-1,type-1 or pre Diabetes.",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            },
+            
+              {
+
+                "name":"POSTPRANDIAL GLUCOSE ",
+                "title":"BUN(Blood Urea Nitrogen)",
+                "Category":"DIABETES RELATED DISORDERS",
+                "Prerequisite":"12 hours OR Overnight fasting is recommended",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detecting or Monitoring the type-1 or type-1 Diabetes for any dietary modifications or pre meal bolus insulin.",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            }
+            
+        ]
+    },{
+        "name":"Liver",
+        "packages":[
+            {
+                "name": "Liver",
+                "title": "TOTAL PROTEIN",
+                "Category": "LIVER RELATED DISORDERS",
+                "Prerequisite": "12 hours OR Overnight fasting is recommended",
+                "ReportAvailability": "Same Day",
+                "Price:":"₹700/-",
+                "Info": "It's an enzyme to study liver condition. diagnosis and monitoring of liver disease associated with hepatic necrosis. bilirubin level helps to assess diagnosis and monitor jaundice",
+                "SampleRequired:":"Blood Sample drawn from the veins in the arm. "
+            },
+            {
+                "name": "Liver",
+                "title": "SERUM ALBUMIN",
+                "Category": "LIVER RELATED DISORDERS",
+                "Prerequisite": "12 hours OR Overnight fasting is recommended",
+                "ReportAvailability": "Same Day",
+                "Price:":"₹700/-",
+                "UsefulFor:":"Detecting any liver diseases or Kidney and nephrotic syndrome.",
+                "SampleRequired:":"Blood Sample drawn from the veins in the arm. "
+            },
+            {
+                "name": "Liver",
+                "title": "SERUM GLOBULIN",
+                "Category": "LIVER RELATED DISORDERS",
+                "Prerequisite": "12 hours OR Overnight fasting is recommended",
+                "ReportAvailability": "Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detecting any liver diseases or damage,kidney disease,nutritional problems,having symptoms of Jaundice etc.",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            },
+            {
+                "name": "Liver",
+                "title": "A/G RATIO",
+                "Category": "LIVER RELATED DISORDERS",
+                "Prerequisite": "12 hours OR Overnight fasting is recommended",
+                "ReportAvailability": "Same Day",
+                "Price:":"₹700/-",
+                "UsefulFor:":"Detecting any liver,Kidney,blood or to access the risk of an infection or to make sure enough nutritional intake.",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            },
+            {
+                "name": "Liver",
+                "title": "SGPT",
+                "Category": "LIVER RELATED DISORDERS",
+                "Prerequisite": "12 hours OR Overnight fasting is recommended",
+                "ReportAvailability": "Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detecting any liver diseases,Jaundice or to check damage from liver infections like hepatitis or for routine checkup of patients under chemotherapy/antituberculous treatment.",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            },
+            {
+                "name": "Liver",
+                "title": "SGOT",
+                "Category": "LIVER RELATED DISORDERS",
+                "Prerequisite": "12 hours OR Overnight fasting is recommended",
+                "ReportAvailability": "Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detecting any liver diseases or to check damage from liver infections like hepatitis or patients under chemotherapy/antituberculous treatment and also in heart diseases. ",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            },
+            {
+
+                "name": "Liver",
+                "title": "LIPID PROFILE",
+                "Category": "LIVER RELATED DISORDERS",
+                "Prerequisite": "12 hours OR Overnight fasting is recommended",
+                "ReportAvailability": "Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detecting inflammatory diseases,Neoplastic dieases,Immune disorders,liver diseases and nephrotic syndrome.",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            },
+            {
+
+                "name": "Liver",
+                "title": "ALP",
+                "Category": "LIVER RELATED DISORDERS",
+                "Prerequisite": "12 hours OR Overnight fasting is recommended",
+                "ReportAvailability": "Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detecting any liver diseases or how gallbladder is functioning.",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            }
+        ]
+       }
+  ]
+}
