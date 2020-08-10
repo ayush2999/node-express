@@ -52,3 +52,20 @@ const lifeCycleSchema = new Schema({
 var lifeCyclePackages = mongoose.model('lifeCyclePackage', lifeCycleSchema);
 
 module.exports = lifeCyclePackages;
+
+
+
+// {
+// 	"packages":[
+// 	  {
+// 	"name":"",
+//     "title":"",
+//     "Category":"",
+//     "Prerequisite":"",
+//      "ReportAvailability":"",
+//     "Price":"",
+//     "UsefulFor":"",
+//     "SampleRequired":""
+//        }	
+//      ]
+// }

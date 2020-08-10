@@ -2,6 +2,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
+var authenticate = require('../authenticate');
+
 const lifeCycles = require('../models/lifeCycle');
 
 const lifeCycleRouter = express.Router();
@@ -18,7 +20,7 @@ lifeCycleRouter.route('/')
     }, (err) => next(err))
     .catch((err) => next(err));
 })
-.post((req, res, next) => {
+.post(authenticate.verifyUser,authenticate.verifyAdmin, (req, res, next) => {
     lifeCycles.create(req.body)
     .then((lifeCycle) => {
         console.log('lifeCycle Created ', lifeCycle);
@@ -28,11 +30,11 @@ lifeCycleRouter.route('/')
     }, (err) => next(err))
     .catch((err) => next(err));
 })
-.put((req, res, next) => {
+.put(authenticate.verifyUser,authenticate.verifyAdmin, (req, res, next) => {
     res.statusCode = 403;
     res.end('PUT operation not supported on /lifeCycles');
 })
-.delete((req, res, next) => {
+.delete(authenticate.verifyUser,authenticate.verifyAdmin, (req, res, next) => {
     lifeCycles.remove({})
     .then((resp) => {
         res.statusCode = 200;
@@ -52,11 +54,11 @@ lifeCycleRouter.route('/:lifeCycleId')
     }, (err) => next(err))
     .catch((err) => next(err));
 })
-.post((req, res, next) => {
+.post(authenticate.verifyUser,authenticate.verifyAdmin, (req, res, next) => {
     res.statusCode = 403;
     res.end('POST operation not supported on /lifeCycles/'+ req.params.lifeCycleId);
 })
-.put((req, res, next) => {
+.put(authenticate.verifyUser,authenticate.verifyAdmin, (req, res, next) => {
     lifeCycles.findByIdAndUpdate(req.params.lifeCycleId, {
         $set: req.body
     }, { new: true })
@@ -67,7 +69,7 @@ lifeCycleRouter.route('/:lifeCycleId')
     }, (err) => next(err))
     .catch((err) => next(err));
 })
-.delete((req, res, next) => {
+.delete(authenticate.verifyUser,authenticate.verifyAdmin, (req, res, next) => {
     lifeCycles.findByIdAndRemove(req.params.lifeCycleId)
     .then((resp) => {
         res.statusCode = 200;
@@ -78,3 +80,4 @@ lifeCycleRouter.route('/:lifeCycleId')
 });
 
 module.exports = lifeCycleRouter;
+
