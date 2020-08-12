@@ -6,8 +6,8 @@ const Currency = mongoose.Types.Currency;
 var packageSchema = new Schema({
     name: {
         type: String,
-        required: true,
-        unique: true
+        required: true
+        // unique: true
     },
     title: {
         type: String,
@@ -42,9 +42,19 @@ var packageSchema = new Schema({
     timestamps: true
 });
 
+const selectPackageSchema = new Schema({
+    name:{
+        type: String,
+        required: true,
+        unique: true
+    },
+    packages:[packageSchema]
+},{
+    timestamps: true
+})
 
 const lifeCycleSchema = new Schema({
-   packages:[packageSchema]
+    selectPackage:[selectPackageSchema]
 }, {
     timestamps: true
 });

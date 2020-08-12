@@ -1,5 +1,5 @@
 {
-  "lifecycleDisorder":[
+  "selectPackage":[
     {
         "name":"Heart",
         "packages": [
@@ -9,7 +9,7 @@
                 "Category": "HEART RELATED DISORDERS",
                 "Prerequisite": "12 hours OR Overnight fasting is recommended",
                 "ReportAvailability": "Same Day",
-                "Price": 0,
+                "Price": "₹700/-",
                 "UsefulFor": "Detecting or Monitoring risks of developing Cardiovascular diseases and even crtain forms of Pancreatitis.",
                 "SampleRequired": "Blood Sample drawn from the veins in the arm. "
             },
@@ -19,7 +19,7 @@
                 "Category": "HEART RELATED DISORDERS",
                 "Prerequisite": "12 hours OR Overnight fasting is recommended",
                 "ReportAvailability": "Same Day",
-                "Price": 0,
+                "Price": "₹700/-",
                 "UsefulFor": "Detecting or Monitoring risks of developing Heart failure among patients with diabetes.",
                 "SampleRequired": "Blood Sample drawn from the veins in the arm. "
             },
@@ -29,7 +29,7 @@
                 "Category": "HEART RELATED DISORDERS",
                 "Prerequisite": "12 hours OR Overnight fasting is recommended",
                 "ReportAvailability": "Same Day",
-                "Price": 0,
+                "Price": "₹700/-",
                 "UsefulFor": "A slightly elevated s-creatinine level indicates reduced Kidney functions which is a risk factor for cardiovascular diseases like congestive Heart failure.",
                 "SampleRequired": "Blood Sample drawn from the veins in the arm. "
             }
@@ -320,9 +320,9 @@
                 "Category": "LIVER RELATED DISORDERS",
                 "Prerequisite": "12 hours OR Overnight fasting is recommended",
                 "ReportAvailability": "Same Day",
-                "Price:":"₹700/-",
-                "Info": "It's an enzyme to study liver condition. diagnosis and monitoring of liver disease associated with hepatic necrosis. bilirubin level helps to assess diagnosis and monitor jaundice",
-                "SampleRequired:":"Blood Sample drawn from the veins in the arm. "
+                "Price":"₹700/-",
+                "UsefulFor": "It's an enzyme to study liver condition. diagnosis and monitoring of liver disease associated with hepatic necrosis. bilirubin level helps to assess diagnosis and monitor jaundice",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
             },
             {
                 "name": "Liver",
@@ -330,9 +330,9 @@
                 "Category": "LIVER RELATED DISORDERS",
                 "Prerequisite": "12 hours OR Overnight fasting is recommended",
                 "ReportAvailability": "Same Day",
-                "Price:":"₹700/-",
-                "UsefulFor:":"Detecting any liver diseases or Kidney and nephrotic syndrome.",
-                "SampleRequired:":"Blood Sample drawn from the veins in the arm. "
+                "Price":"₹700/-",
+                "UsefulFor":"Detecting any liver diseases or Kidney and nephrotic syndrome.",
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
             },
             {
                 "name": "Liver",
@@ -350,8 +350,8 @@
                 "Category": "LIVER RELATED DISORDERS",
                 "Prerequisite": "12 hours OR Overnight fasting is recommended",
                 "ReportAvailability": "Same Day",
-                "Price:":"₹700/-",
-                "UsefulFor:":"Detecting any liver,Kidney,blood or to access the risk of an infection or to make sure enough nutritional intake.",
+                "Price":"₹700/-",
+                "UsefulFor":"Detecting any liver,Kidney,blood or to access the risk of an infection or to make sure enough nutritional intake.",
                 "SampleRequired":"Blood Sample drawn from the veins in the arm. "
             },
             {
