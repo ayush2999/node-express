@@ -13,6 +13,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var lifeCycleRouter = require('./routes/lifeCycleRouter');
 var combos=require("./routes/comboRouter")
+const uploadRouter = require('./routes/uploadRouter');
 var config = require('./config');
 const url = config.mongoUrl;
 var app = express();
@@ -23,6 +24,7 @@ app.set('view engine', 'jade');
 
 const mongoose = require('mongoose');
 const lifeCycles = require('./models/lifeCycle');
+const imagePathRouter = require('./routes/imagePathRouter');
 // const url = 'mongodb://localhost:27017/conFusion';
 const connect = mongoose.connect(url);
 connect.then((db) => {
@@ -41,7 +43,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/imageUpload',uploadRouter);
 app.use('/lifeCycle',lifeCycleRouter);
+app.use('/imagePath',imagePathRouter);
 app.use('/combos',combos);
 
 

@@ -14,15 +14,13 @@ comboRouter.use(bodyParser.json());
 comboRouter.route('/')
 .options(cors.corsWithOptions, (req, res) => { res.sendStatus(200); })
 .get(cors.cors,(req,res,next) => {
-    res.status=200;
-    res.end("fetch combos")
-    // combos.find({})
-    // .then((combos) => {
-    //     res.statusCode = 200;
-    //     res.setHeader('Content-Type', 'application/json');
-    //     res.json(combos);
-    // }, (err) => next(err))
-    // .catch((err) => next(err));
+    combos.find({})
+    .then((combos) => {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'application/json');
+        res.json(combos);
+    }, (err) => next(err))
+    .catch((err) => next(err));
 })
 .post(cors.corsWithOptions, authenticate.verifyUser,authenticate.verifyAdmin, (req, res, next) => {
     combos.create(req.body)

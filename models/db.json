@@ -397,6 +397,122 @@
                 "SampleRequired":"Blood Sample drawn from the veins in the arm. "
             }
         ]
+       },{
+           "name":"Anemia",
+           "packages":[
+            {
+                "name":"Anemia Analysis",
+                "title":"CBC",
+                "Category":"ANEMIA RELATED",
+                "Prerequisite":"12 hours OR Overnight fasting is recommended",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detection of anemia or leukemia,Screening any health problem etc.",
+                "SampleRequired":"Blood sample drawn from veins in the arm."   
+           },
+            
+            {
+                "name":"Anemia Analysis",
+                "title":"PBP",
+                "Category":"ANEMIA RELATED",
+                "Prerequisite":"No Specific Prerequisite.",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detecting of iron deficiency anemia.",
+                "SampleRequired":"Blood sample drawn from veins in the arm."   
+           },
+           
+        {
+                "name":"Anemia Analysis",
+                "title":"TIBC",
+                "Category":"ANEMIA RELATED",
+                "Prerequisite":"No Specific Prerequisite.",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"To check for medical conditions that cause abnormal iron levels which can be result of anemia.",
+                "SampleRequired":"Blood sample drawn from veins in the arm."   
+           },
+        {
+                "name":"Anemia Analysis",
+                "title":"SERUM IRON",
+                "Category":"ANEMIA RELATED",
+                "Prerequisite":"No Specific Prerequisite.",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Follow up test, when CBC or Iron screnning results show abnormality,can be a marker for anemia also,etc. ",
+                "SampleRequired":"Blood sample drawn from veins in the arm."   
+           }
+           ]
+       },{
+           "name":"Tumour",
+           "packages":[
+            {
+                "name":"Tumour Marker",
+                "title":"CA 19.9",
+                "Category":"CANCER SCRENNING",
+                "Prerequisite":"12 hours OR Overnight fasting is recommended",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detection of mainly pancreatic and gallbladder cancer(but can be other cancers or conditions),how well cancer treatment is working or if it has returned back.", 
+                "SampleRequired":"Blood SamRequiredple drawn from the veins in the arm. "
+            },
+            
+          {
+                "name":"Tumour Marker",
+                "title":"PSA",
+                "Category":"CANCER SCRENNING",
+                "Prerequisite":"12 hours OR Overnight fasting is recommended",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detection of  prostate cancer, benign prostatic hyperplasia (BPH), or infection/inflammation of the prostate gland.", 
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            },
+        
+        {
+                "name":"Tumour Marker",
+                "title":"CA 125",
+                "Category":"CANCER SCRENNING",
+                "Prerequisite":"12 hours OR Overnight fasting is recommended",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detection and Monitoring certain cancer before and after treatment,detect risk of ovarian cancer(early signs). ", 
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            },
+           
+        
+        {
+                "name":"Tumour Marker",
+                "title":"CEA",
+                "Category":"CANCER SCRENNING",
+                "Prerequisite":"12 hours OR Overnight fasting is recommended",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detection ofcolon cancer or any other condition for people smoking tobacco,how well cancer treatment is working or if it has returned back.", 
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            },
+        
+        
+        {
+                "name":"Tumour Marker",
+                "title":"AFP",
+                "Category":"CANCER SCRENNING",
+                "Prerequisite":"12 hours OR Overnight fasting is recommended",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detection of primary liver cancer or germ cell tumour.", 
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            },
+            {
+                "name":"Tumour Marker",
+                "title":"B-hcg",
+                "Category":"CANCER SCRENNING",
+                "Prerequisite":"12 hours OR Overnight fasting is recommended",
+                "ReportAvailability":"Same Day",
+                "Price":"₹700/-",
+                "UsefulFor":"Detection of GTD,testicular tumors, ovarian germ cell tumors, teratomas.", 
+                "SampleRequired":"Blood Sample drawn from the veins in the arm. "
+            }
+           ]
        }
   ]
 }
